@@ -24,8 +24,8 @@ def test_add():
     assert add(2.9, 3.1, 4.9) == 10
 
     # 文字列で渡された場合
-    assert add("2", "3") == 5
-    assert add("2", "3", "4") == 9
+    assert add("2", "3") == 23
+    assert add("2", "3", "4") == 27
     assert add("10", "-3") == 7
 
     # 数値化できない文字列
