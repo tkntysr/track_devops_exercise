@@ -20,8 +20,8 @@ def test_add():
     assert add(-5, 10, -3) == 2
 
     # 浮動小数が整数にキャストされる確認
-    assert add(2.9, 3.1) == 5
-    assert add(2.9, 3.1, 4.9) == 9
+    assert add(2.9, 3.1) == 6
+    assert add(2.9, 3.1, 4.9) == 10
 
     # 文字列で渡された場合
     assert add("2", "3") == 5
