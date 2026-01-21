@@ -12,7 +12,7 @@ def test_add():
     assert add(0, 0) == 0
     assert add(-1, 1) == 0
     assert add(-5, -7) == -12
-    assert add(10, -3) == "error"
+    assert add(10, -3) == 7
 
     # c を指定するテスト
     assert add(2, 3, 4) == 9
